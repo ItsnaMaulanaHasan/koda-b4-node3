@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch index.js",
+    "lint": "npx eslint *.js ./**/*.js",
+    "lint:fix": "npx eslint *.js ./**/*.js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
